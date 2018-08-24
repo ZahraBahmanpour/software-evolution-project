@@ -40,7 +40,7 @@ def yule(entry):
             return 0
 ##################################################################################
 
-# This function calculates the work count percentage
+# This function calculates the word count percentage
 def word_count_percentage(entry, lookUpWord):
     fd= nltk.FreqDist(entry)
     return fd[lookUpWord]
